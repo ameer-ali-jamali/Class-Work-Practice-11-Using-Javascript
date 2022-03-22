@@ -10,8 +10,8 @@ var num12 = 12;
 var num18 = 18;
 var num89 = 89;
 document.write(num1+num4+num18*20)
-var name=prompt("Enter your name")
-document.write[name]("hello")
+var Name=prompt("Enter your Name")
+document.write(Name+"Hello")
 
 
 
