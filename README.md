@@ -1,2 +1,1 @@
-# Class-Work-Practice-12-Math-Oprators-Using-Javascript
-Javascript-practice-mmath oprators and If else and more 
+Today i learned how perform addition, subtraction, multiplication, division, exponentiation, and modulus operations in javascript...
