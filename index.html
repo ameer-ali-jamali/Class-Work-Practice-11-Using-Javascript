@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-<script>
-    
-</script>
-</head>
-<body> 
-    
-    <!-- <p>
-        comparison oprator
-    altmatic
-    conditionl oprators
-    
-    </p>
-    <p>incriment oprator</p>
-    <p>decriment opratirs</p> -->
 
-    
-    <script src="aap.js">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple JavaScript Application</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    </script>
-</body>
+    <body>
+        <script>
+            // Define variables
+            var num1 = 2;
+            var num4 = 4;
+            var num18 = 18;
+
+            // Perform calculations and output result
+            document.write(num1 + num4 + num18 * 20);
+
+            // Log a message to the console
+            console.log("ameer ali ajmali");
+
+            // Display an alert
+            alert("hello world");
+
+            // Display a confirmation dialog
+            confirm("hello confirm");
+
+            // Prompt for user input
+            var Name = prompt("Enter your Name");
+            document.write(Name + "Hello");
+
+            // Perform additional calculations
+            var Age = prompt("Enter your Age");
+            Age = parseInt(Age);
+
+            var Num = prompt("Enter Any Number From 1 To 10000000");
+            var Num9 = prompt("Enter Any Number From 1 To 10000000");
+            Num = parseInt(Num);
+            Num9 = parseInt(Num9);
+
+            // Output sum and perform other operations
+            document.write(Num + Num9);
+            document.write("<hr>");
+            document.write("Subtraction Results");
+            document.write("<hr>");
+            document.write(Num - Num9);
+            document.write("<br>Minus Results");
+            document.write("<hr>");
+            document.write(Num * Num9);
+
+            // Check age eligibility for voting
+            if (Age > 18) {
+                alert("Congratulations! You are Eligible to Vote.");
+            } else {
+                alert("Sorry, You are Not Eligible to Vote.");
+            }
+        </script>
+    </body>
+
 </html>
